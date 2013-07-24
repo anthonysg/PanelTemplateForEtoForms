@@ -13,7 +13,5 @@ namespace PanelTemplate
         Slider Slider { get; set; }
         TextBox TextBox { get; set; }
 
-        void SetToolTip(string tooltip);
-
     }
 }

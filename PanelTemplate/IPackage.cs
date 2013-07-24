@@ -6,11 +6,10 @@ using System.Text;
 using Eto.Drawing;
 using Eto.Forms;
 
-
 namespace PanelTemplate
 {
-    public interface IControlPackage
+    interface IPackage
     {
-
+        IList<ControlPackage> Controls { get; }
     }
 }

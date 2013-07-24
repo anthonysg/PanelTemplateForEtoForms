@@ -10,11 +10,10 @@ namespace PanelTemplate
 {
     abstract class ControlPackage : Control, IControlPackage
     {
-        public ControlPackage()
-            : base(Eto.Generator.Current, typeof(CellAndSlider))
+        protected ControlPackage()
+            : base(Eto.Generator.Current, typeof(Package)) //typeof used to be CellAndSlider.
         {
             
         }
-        
     }
 }

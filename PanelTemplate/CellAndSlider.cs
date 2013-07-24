@@ -23,8 +23,7 @@ namespace PanelTemplate
         /// Experimenting Below.
         /// </summary>
         void test()
-        {
-            
+        {   
             
         }
     }
