@@ -8,7 +8,7 @@ using Eto.Forms;
 
 namespace PanelTemplate
 {
-    class Package : ControlPackage, IPackage
+    public class Package : ControlPackage, IPackage
     {
         List<ControlPackage> controls;
         public IList<ControlPackage> Controls
@@ -19,8 +19,6 @@ namespace PanelTemplate
             }
         }
         
-        //How to allow user to create their own control package ?
-        //way to make ControlPackage stay abstract while doing something like this?
         public Package(IEnumerable<Control> controls)
         {
             this.controls = new List<ControlPackage>();

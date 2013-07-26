@@ -8,7 +8,7 @@ using Eto.Forms;
 
 namespace PanelTemplate
 {
-    class CellAndSlider : ControlPackage, ICellAndSlider
+    public class CellAndSlider : ControlPackage, ICellAndSlider
     {
         public Slider Slider { get; set; }
         public TextBox TextBox { get; set; }

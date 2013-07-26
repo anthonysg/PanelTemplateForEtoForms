@@ -8,10 +8,10 @@ using Eto.Forms;
 
 namespace PanelTemplate
 {
-    abstract class ControlPackage : Control, IControlPackage
+    public abstract class ControlPackage : Control, IControlPackage
     {
         protected ControlPackage()
-            : base(Eto.Generator.Current, typeof(Package)) //typeof used to be CellAndSlider.
+            : base(Eto.Generator.Current, typeof(IControl)) //typeof used to be CellAndSlider.
         {
             
         }
